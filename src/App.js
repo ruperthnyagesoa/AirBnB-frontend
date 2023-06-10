@@ -1,12 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React,{ useState, useEffect } from 'react';
-import { Route, Routes,useNavigate,useParams } from "react-router"
+import React from 'react';
+import { Route, Routes } from "react-router"
 import Header from './Header'
 import Destinations from './Destinations'
 import Home from './Home'
 import Trips from './Trips'
-import Stops from './Stops'
 import Destination from './Destination'
 import Trip from './Trip'
 import Stop from './Stop'
@@ -16,7 +15,6 @@ import NewStop from './NewStop'
 
 
 function App() {
-  let navigate = useNavigate();
   return (
   <div>
     <Header />
