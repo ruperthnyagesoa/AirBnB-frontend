@@ -13,13 +13,12 @@ function Header(){
                 height="30"
                 className="d-inline-block align-top"
             />{' '}
-            Tachyon Travel
+            Itu!
             </Navbar.Brand>
                 <Nav className="me-auto" >
                 <NavLink href="/">Home</NavLink>
                 <NavLink href="/destinations">Destinations</NavLink>
                 <NavLink href="/trips">Trips</NavLink>
-                {/* <NavLink href="/stops">Stops</NavLink> */}
                 </Nav>
             </Container>
         </Navbar>

@@ -27,7 +27,6 @@ function App() {
             <Route path="/trips/:id" element={<Trip/>} />
             <Route path="/trips/:id/new_stop" element={<NewStop/>} />
             <Route path="/trips/new" element={<NewTrip/>} />
-            {/* <Route path="/stops" element={<Stops/>} /> */}
             <Route path="/stops/:id" element={<Stop/>} />
           </Routes>
 </div>

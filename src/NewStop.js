@@ -2,7 +2,7 @@ import { Form, Button} from 'react-bootstrap/';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React,{ useState, useEffect } from 'react';
-import { Route, Routes,useNavigate,useParams } from "react-router"
+import { useNavigate,useParams } from "react-router"
 
 
 function NewStop(){

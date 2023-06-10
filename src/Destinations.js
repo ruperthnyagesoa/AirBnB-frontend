@@ -1,6 +1,6 @@
 import React,{ useState, useEffect } from 'react';
 import { Card,Button } from 'react-bootstrap';
-import { Route, Routes,useNavigate,useParams } from "react-router"
+import { useNavigate } from "react-router"
 
 function Destinations(){
     let navigate= useNavigate();
