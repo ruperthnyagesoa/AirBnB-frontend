@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Itu! AirBnB Stay
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Intro**
+Welcome to Itu! Air BnB Stay, the pinnacle of stays.Implemented the functionality and less styling due to time twist. Hope you all like it as well!  
 
-## Available Scripts
+**Frontend**
+- I implemented the following features:
+- Architectured a smooth component structure to optimize the code applied within my dynamic app
+- Employed asynchronous fetches for CRUD functionality for stays & reviews    
+- Applied useEffect & useState functionality for fetching the backend data       
+- Created the site structure to update based on mobile vs desktop viewing experience
 
-In the project directory, you can run:
+**Backend**
+For the backend:
+- Involved Ruby, Sinatra & sql to create the stay, review, and user data structures and routes  
+- Tested the fetches as needed with binding.pry or Postman to ensure back-end worked appropriately 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Deploy**
+To deploy i chose to use Vercel for my front end. I updated my build, fetches, functionality, etc. to ensure a smooth user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+[Link](https://ituairbnb.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Clone this repo, and make sure to run the commands mentioned below from your terminal within the root project directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make use Node.js is installed, and npm is up to date:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm@latest -g
 
-### `npm run eject`
+Run the provided setup script:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm run setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run and debug the application with the dev script:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    npm run dev
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Build and run the compiled version with the build and start scripts:
 
-## Learn More
+    npm run build
+    npm run start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Things to improve
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Project requirements!
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+Feel free to find and contact me at the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align="center">
 
-### Making a Progressive Web App
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/ruperthdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruperth-nyagesoa/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</div>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Thank you
